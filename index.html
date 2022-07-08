@@ -8,17 +8,17 @@
  <!-- Forms -->
     <form method="GET" action="processform.php">
         <label for="name">Name</label>
-        <input type="text" name="name" />
+        <input type="text" required name="name" />
 
         <br/>
 
         <label for="password">Password</label>
-        <input type="password" name="password" />
+        <input type="password" required name="password" />
         <br/>
 
 
         <label for="date">Date</label>
-        <input type="date" name="date" />
+        <input type="date" required name="date" />
         <br/>
 
         <label for="email">Email</label>
@@ -28,7 +28,41 @@
         <label for="num">Number</label>
         <input type="color" name="number" />
         <br/>
+        <label for="num">Number</label>
+        <input type="file" name="number" />
+        <br/>
+        <select>
+            <option>Op1</option>
+            <option>Op2</option>
+            <option>Op3</option>
+            <option>Op4</option>
+            <option>Op5</option>
+        </select>
+
+        value 1
+        <input type="radio" name="radio" value="value 1" />
+        value 2
+        <input type="radio" name="radio" value="value 2" />
+        value 3
+        <input type="radio" name="radio1" value="value 3" />
+        value4
+        <input type="radio" name="radio2" value="value 3" />
+        
+        <br/>
+        value 1
+
+        <input type="checkbox" name="check1" value="Checkbox1"/>
+        value 2
+
+        <input type="checkbox" name="check1" value="Checkbox2"/>
+        
+        value 3
+        <input type="checkbox" name="check1" value="Checkbox3"/>
+
         <input type="submit" value="Submit">
+
+
+       
     </form>
 
 
